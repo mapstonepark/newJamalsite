@@ -15,7 +15,7 @@ section.hero{
     width: 70%;
 }
 
-img{
+section.hero img{
     border-radius: 50%;
-    max-width: 100%;
+    max-width: 50%;
 }
