@@ -1,11 +1,28 @@
 body{
-    background-color: #fffcf2;
-    font-family: 'Noto Serif', serif;
+  
+--seasalt: #f8f9faff;
+--antiflash-white: #e9ecefff;
+--platinum: #dee2e6ff;
+--french-gray: #ced4daff;
+--french-gray-2: #adb5bdff;
+--slate-gray: #6c757dff;
+--outer-space: #495057ff;
+--onyx: #343a40ff;
+--eerie-black: #212529ff;
+
+background-color: var(--seasalt);
+font-family: 'Noto Serif', serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 1.2em;
+color: var(--outer-space);
+}
+
+footer{
+    background-color: var(--eerie-black);
+    padding:2% 5%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.2em;
-    color: gray;
 }
 
 
@@ -33,12 +50,12 @@ body{
     }
     
     section.card{
-        background-color: #f2e9e4;
+        background-color: var(--french-gray);
         display: flex;
         align-items: center;
         flex-direction: column;
         border-radius: 10px;
-        margin-top: 5%;
+        margin: 5% 0;
         padding:2% 5%;
         width: 95%;
     }
@@ -49,9 +66,10 @@ body{
     }
     
     h1{
-        font-size: 3em;
+        font-size: 2.5em;
         color: black;
         font-family: 'Varela Round', sans-serif;
+    
         
     }
     
@@ -86,6 +104,7 @@ section.hero{
     margin-top: 5%;
     padding:2% 5%;
     width: 60%;
+    max-width: 800px;
 }
 
 section.hero img{
@@ -94,13 +113,15 @@ section.hero img{
 }
 
 section.card{
-    background-color: #f2e9e4;
+    background-color: var(--french-gray);
     display: flex;
     align-items: center;
     border-radius: 10px;
-    margin-top: 5%;
+    margin: 5% 0;
     padding:2% 5%;
     width: 60%;
+    max-width: 800px;
+   
 }
 
 section.card img{
@@ -110,9 +131,10 @@ section.card img{
 }
 
 h1{
-    font-size: 3em;
+    font-size: 2.5em;
     color: black;
     font-family: 'Varela Round', sans-serif;
+   
     
 }
 
@@ -128,5 +150,7 @@ section.info{
     line-height: 1.7em;
   
 }
+
+
 
 }
