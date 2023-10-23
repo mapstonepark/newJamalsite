@@ -94,6 +94,8 @@ color: var(--slate-gray);
         background-color: var(--eerie-black);
         padding:2% 5%;
         display: flex;
+        justify-content: center;
+        width: 100%;
     }
     
     
