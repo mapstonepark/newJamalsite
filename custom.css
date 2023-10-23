@@ -55,6 +55,7 @@ color: var(--slate-gray);
         margin: 5% 0;
         padding:2% 5%;
         width: 95%;
+        gap: 2em;
     }
     
     section.card img{
@@ -69,6 +70,7 @@ color: var(--slate-gray);
         font-family: 'Varela Round', sans-serif;
         text-transform: uppercase;
         letter-spacing: .2em;
+        line-height: 1.2em;
     
         
     }
@@ -84,6 +86,7 @@ color: var(--slate-gray);
         flex-direction: column;
         line-height: 1.7em;
         align-items: center;
+        gap: 1em;
       
     }
 
