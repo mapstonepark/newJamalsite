@@ -65,7 +65,7 @@ color: var(--slate-gray);
     }
     
     h1{
-        font-size: 2.5em;
+        font-size: 2em;
         color: black;
         font-family: 'Varela Round', sans-serif;
         text-transform: uppercase;
@@ -76,7 +76,7 @@ color: var(--slate-gray);
     }
     
     h2{
-        font-size: 2em;
+        font-size: 1.8em;
         color: black;
         font-family: 'Varela Round', sans-serif;
     }
@@ -152,7 +152,7 @@ h1{
     color: black;
     font-family: 'Varela Round', sans-serif;
     text-transform: uppercase;
-   letter-spacing: .2em;
+    letter-spacing: .2em;
    
     
 }
