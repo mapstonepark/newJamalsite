@@ -12,6 +12,7 @@ body{
 
 background-color: var(--seasalt);
 font-family: 'Noto Serif', serif;
+font-family: 'Oxygen', sans-serif;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -69,8 +70,9 @@ ul{
     
     h1{
         font-size: 2em;
+        font-weight: bold;
         color: black;
-        font-family: 'Varela Round', sans-serif;
+        font-family: 'Oxygen', sans-serif;
         text-transform: uppercase;
         letter-spacing: .2em;
         line-height: 1.2em;
@@ -81,7 +83,7 @@ ul{
     h2{
         font-size: 1.8em;
         color: black;
-        font-family: 'Varela Round', sans-serif;
+        font-family: 'Oxygen', sans-serif;
     }
     
     section.info{
@@ -158,8 +160,9 @@ section.card img{
 
 h1{
     font-size: 2.2em;
+    font-weight: bold;
     color: black;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     text-transform: uppercase;
     letter-spacing: .2em;
    
@@ -169,7 +172,7 @@ h1{
 h2{
     font-size: 2em;
     color: black;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Oxygen', sans-serif;
 }
 
 section.info{
